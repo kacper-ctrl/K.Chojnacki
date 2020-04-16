@@ -1,0 +1,7 @@
+Opis realizacji zadania pierwszego
+
+
+W języku programowania Java wyjątki charakteryzuje pewien rodzaj hierarchii.
+Wymusza to na programiście przemyślane projektowanie bloków „catch”.
+Sprowadza się to do tego, że nie możemy najpierw ,,łapać” wyjątku ogólnego, a dopiero potem przejść do bardziej szczegółowego.
+Spowoduje to nieoczekiwane działanie programu w momencie wystąpienia wyjątku.  
