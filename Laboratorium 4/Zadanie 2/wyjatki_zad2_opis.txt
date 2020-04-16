@@ -1,0 +1,8 @@
+Opis realizacji zadania drugiego
+
+
+Po uruchomieniu programu, użytkownik proszony jest o podanie znaku, w przypadku gdy tym znakiem jest liczba program bez problemu się wykona. 
+To znaczy za pomocą metody Integer.parseInt() wpisany ciąg znaków zostanie zamieniony na typ int i zapisany w zmiennej o nazwie „liczba”, a następnie wyświetlony.
+Problem może pojawić się wtedy gdy użytkownik wpisze jakiś ciąg znaków nie będący cyframi. Spowoduje to wyświetlenie wyjątku w tym przypadku „NumberFormatException”.
+W celu obsługi takich wyjątków stosuje się bloki try{} oraz catch(){}.
+Blok „try” testuje nam zadany zestaw instrukcji ,a w przypadku znalezienia jakiegoś wyjątku wykonany zostaje blok „catch”.
