@@ -1,0 +1,8 @@
+Opis realizacji zadania czwartego
+
+
+W celu odpowiedniej modyfikacji programu utworzyłem nową klasę o nazwie „Oprawa”.
+Z tej klasy bezpośrednio korzystają klasy „Książka” oraz „Film”. Zabieg ten nazwany jest kompozycją. 
+Kompozycja pozwala na definiowanie w klasach „Książka” oraz „Film” pól, które są obiektami klasy „Oprawa”(String typOprawy, String material, String kolor). 
+Pozwala to na powstanie klas, których częścią składową jest klasa „Oprawa”.
+
