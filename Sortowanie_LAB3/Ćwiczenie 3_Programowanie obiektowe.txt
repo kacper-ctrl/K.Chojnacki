@@ -1,0 +1,10 @@
+Ćwiczenie 3
+	
+Zgodnie z poleceniem stworzyłem interfejs „Sortable”, którego metody są odpowiednio implementowane w dwóch klasach realizujących sortowanie. 
+Sposób ich implementacji jest bezpośrednio związany z typem tej operacji. Inna jest implementacja dla klasy o nazwie „BucketSort”, a jeszcze inna dla klasy o nazwie „BubbleSort”.
+Idea sortowania bąbelkowego polega na porównywaniu kolejnych par elementów tablicy, w przypadku gdy element poprzedzający ma przypisaną większą wartość następuje zamiana miejscami. 
+Jeśli element, który występuje najpierw w parze jest mniejszy program przechodzi do porównania kolejnej pary. Proces ten pozwala na osiągnięcie efektu jakim jest posortowana dwustu elementowa tablica.
+Na uzyskanie dokładnie takiego samego efektu pozwala również sortowanie kubełkowe, którego ideą jest stworzenie ilości kubełków odpowiadającej „ilości” wartości używanych w tablicy. 
+Następnie każdy z „kubełków” wypełniany jest odpowiednią ilością tych „wartości” występujących w tablicy. Po tym następuje wpisywanie n elementów danego kubełka do tablicy wynikowej.
+Po uruchomieniu programu wyświetlona zostaje losowa tablica (n=200/zakres 0-9) oraz proste menu pozwalające użytkownikowi na wybór metody. Na koniec wyświetlona zostaje posortowana tablica i liczba wykonanych porównań.
+	
