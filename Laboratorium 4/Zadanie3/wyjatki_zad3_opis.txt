@@ -1,0 +1,7 @@
+Opis zadania trzeciego
+
+Po uruchomieniu programu użytkownik proszony jest o podanie numeru indeksu elementu, który chce wyświetlić. 
+W celu obsługi wyjątków zastosowane zostały bloki try oraz catch.
+Przykładowo jeśli użytkownik wprowadzi numer indeksu, który wykracza poza obszar tablicy zostanie wyświetlony komunikat 
+,,ArrayIndexOutOfBoundsException” po którym istnieje ponowna możliwość wprowadzenia danych.
+
