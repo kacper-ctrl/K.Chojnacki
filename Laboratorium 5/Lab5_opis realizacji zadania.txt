@@ -1,0 +1,12 @@
+Opis realizacji zadania
+
+Pierwszym etapem realizacji było utworzenie klasy Testowanie, w której to 
+znajdują się odpowiednie metody. Metody te posiadają funkcjonalności realizujące
+zadania wyszczególnione w treści polecenia np. "metoda temp" przyjmuje dwa
+argumenty typu double(temeperatura) i zwraca "true" jeśli chociaż jedna z podanych
+wartości jest większa od 100. 
+Drugim etapem było napisanie odpowiednich testów jednostkowych. Testy te
+mają za zadanie wykazać poprawność działania odpowiednich metod np. za
+pomocą  "void test2()" sprawdzamy, czy wartość zwracana przez metodę "sekwencja"
+pokrywa się z wartością przewidywaną w tym przypadku "true".
+
