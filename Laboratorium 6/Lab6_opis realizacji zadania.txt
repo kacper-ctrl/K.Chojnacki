@@ -1,0 +1,10 @@
+JSON zwraca różne wartości zgodnie z zadanym poleceniem. W endpointach
+użytkownicy wpisują żądania, które są obsługiwane za pomocą @RequestMapping.
+W celu realizacji poleceń wykonałem:
+-zmieniłem nazwę endpointa z "greeting" na "bye"
+-dodałem niezależnie działające endpointy
+-parametr zwracany w JSON zwraca wiek osoby
+-utworzyłem klasę o nazwie "Osoba", dzięki temu kontruktor umożliwia 
+wyświetlenie większej liczby parametrów.
+-metoda w endpoincie sprawdza, czy zostało wpisane imię męskie, czy żeńskie
+-program sprawdza, czy wpisany tekst znajduje się we wzorcu
